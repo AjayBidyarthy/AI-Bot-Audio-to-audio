@@ -1,4 +1,4 @@
-"""Main file for the Jarvis project"""
+"""Main file for the project"""
 import os
 from os import PathLike
 from time import time
