@@ -2,7 +2,7 @@
 
 Below is an overview of the architecture for an AI audio-to-audio application leveraging OpenAI Whisper and ElevenLabs’ text-to-speech (TTS) API:
 
-![Application Architecture![Copy of Solution Diagram (1)](https://github.com/AjayBidyarthy/AI-Bot-Audio-to-audio/assets/29508011/e5886422-a2ed-477b-9a63-9394cabe8689)
+![Application Architecture!(https://github.com/AjayBidyarthy/AI-Bot-Audio-to-audio/assets/29508011/e5886422-a2ed-477b-9a63-9394cabe8689)
 ]()
 
 1. **Physical Input (Voice Recording):**
