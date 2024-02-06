@@ -5,13 +5,13 @@ Follow these steps to install and set up the project:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/yourrepository.git
+    git clone https://github.com/AjayBidyarthy/AI-Bot-Audio-to-audio.git
     ```
 
 2. **Navigate to the project directory:**
 
     ```bash
-    cd yourrepository
+    cd AI-Bot-to-Audio
     ```
 
 3. **Create a Python virtual environment:**
