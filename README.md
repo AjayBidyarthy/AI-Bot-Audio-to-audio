@@ -104,5 +104,5 @@ Here's a brief description of the files in the project:
     - Utilizes ElevenLabs API for text-to-speech synthesis and playback of the audio response.
 
 - **display.py:**
-    - Code for the frontend of the application is implemented in this file.
+    - Code for the taipy frontend of the application is implemented in this file.
     - It handles the user interface and interaction with the backend components.
