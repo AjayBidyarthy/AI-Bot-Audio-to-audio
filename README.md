@@ -45,3 +45,44 @@ Follow these steps to install and set up the project:
     ```
 
     This command will install all the necessary dependencies for the project.
+
+
+
+
+# Running the Project
+
+Follow these steps to run the project:
+
+1. **Create a .env file:**
+
+    Copy the content from the `.env.example` file and create a new `.env` file in the project directory. Populate the `.env` file with the necessary API keys and configuration variables.
+
+2. **Run the frontend:**
+
+    ```bash
+    python display.py
+    ```
+
+    This command will start the frontend of the application. Ensure that all necessary dependencies are installed before running this command.
+
+3. **Run the backend application:**
+
+    ```bash
+    python main.py
+    ```
+
+    This command will start the backend of the application. Make sure you've activated the virtual environment if you created one earlier.
+
+4. **Start the conversation:**
+
+    Once both the frontend and backend are running, you can start speaking into the microphone. The conversation will be displayed on the frontend interface.
+
+5. **Clear conversation and start afresh:**
+
+    If you want to clear the conversation and start a new one, simply click the "New Conversation" button on the frontend interface.
+
+6. **Enjoy your conversation!**
+
+    You're all set to interact with the project. Have fun chatting!
+
+
