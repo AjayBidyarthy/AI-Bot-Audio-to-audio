@@ -118,3 +118,21 @@ Follow these steps to run the project:
     You're all set to interact with the project. Have fun chatting!
 
 
+# File Descriptions
+
+Here's a brief description of the files in the project:
+
+1. **record.py:**
+   - This file contains functions to record audio input from the user through a microphone.
+
+2. **main.py:**
+   - Contains functions for the main backend operations of the application.
+   - Includes functions for transcribing audio to text using OpenAI Whisper base model (speech to text).
+   - Also contains functions for generating response text from OpenAI GPT model.
+   - Utilizes ElevenLabs API for text-to-speech synthesis and playback of the audio response.
+
+3. **display.py:**
+   - Code for the frontend of the application is implemented in this file.
+   - It handles the user interface and interaction with the backend components.
+
+
