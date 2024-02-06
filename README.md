@@ -1,6 +1,6 @@
 # Application Architecture
 
-Below is an overview of the architecture for an AI audio-to-audio application leveraging OpenAI Whisper and ElevenLabs’ text-to-speech (TTS) API:
+Below is the overview of the architecture for AI audio-to-audio chatbot application leveraging OpenAI Whisper and ElevenLabs’ text-to-speech (TTS) API:
 
 ![Copy of Solution Diagram (1)](https://github.com/AjayBidyarthy/AI-Bot-Audio-to-audio/assets/29508011/aaf528fb-530b-489e-a92a-e3348ddd867d)
 
