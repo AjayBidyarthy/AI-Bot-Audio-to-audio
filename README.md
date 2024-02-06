@@ -1,3 +1,35 @@
+# Application Architecture
+
+Below is an overview of the architecture for an AI audio-to-audio application leveraging OpenAI Whisper and ElevenLabs’ text-to-speech (TTS) API:
+
+![Application Architecture![Copy of Solution Diagram (1)](https://github.com/AjayBidyarthy/AI-Bot-Audio-to-audio/assets/29508011/e5886422-a2ed-477b-9a63-9394cabe8689)
+]()
+
+1. **Physical Input (Voice Recording):**
+   - The user provides a spoken input through a microphone.
+   - PyAudio library is used to record the audio input, saving it as a .wav file.
+
+2. **Transcribe:**
+   - The recorded .wav file is fed into OpenAI Whisper for speech-to-text transcription.
+
+3. **GPT-3.5 Turbo:**
+   - The transcribed text is passed to GPT-3.5 Turbo, a large language model fine-tuned for various tasks.
+   - GPT-3.5 Turbo generates a response text based on the input.
+
+4. **Display Response:**
+   - The generated response text is displayed for the user to read.
+
+5. **Speech Synthesis:**
+   - The response text is sent to ElevenLabs TTS API for text-to-speech synthesis.
+   - The API synthesizes the text into an audio file, which can be in .wav or .mp3 format.
+
+6. **Play the Response Audio:**
+   - The synthesized audio file is played back for the user to hear.
+
+
+
+
+
 # Installation
 
 Follow these steps to install and set up the project:
